@@ -1,6 +1,11 @@
+import { Route, Routes } from "react-router"
+import { Home } from "./pages/index"
+
 function App() {
   return (
-    <div className="text-white">Hello World</div>
+    <Routes>
+      <Route path="/" element={<Home />} />
+    </Routes>
   )
 }
 
