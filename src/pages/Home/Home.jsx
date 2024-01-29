@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaEdit } from "react-icons/fa";
 
 const Home = () => {
 
