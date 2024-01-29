@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaEdit } from "react-icons/fa";
 
 const Home = () => {
 
@@ -57,7 +58,7 @@ const Home = () => {
           <div className="search-location flex py-4">
               <p>From </p>
               <input type="search" placeholder="search" class="md:relative left-4 border-b-2 bg-[#F2F3FA]"/>
-              
+              <FaEdit />
           </div> 
         </div>
         <div className="">
