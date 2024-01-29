@@ -1,8 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@font-face {
+    font-family: 'Jotia';
+    src: url('../public/assets/Fonts/Jotia.ttf') format('truetype'); 
+  }
+  
 
 html{
     background-color: black;
+}
+.jotia{
+    font-family: Jotia;
 }
