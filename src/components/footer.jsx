@@ -8,7 +8,7 @@ export default function Footer(){
     return(
         <div className="w-screen h-[36rem] bg-white grid place-items-center">
             <div class="w-[72rem] h-[32rem]">
-                <div className="grid grid-cols-5 text-[#4a525d]">
+                <div className="grid grid-cols-6 text-[#4a525d]">
                     <div className="h-[30rem]">
                         <h2>Qatar Airways</h2><br/>
                             <ul>
@@ -47,14 +47,20 @@ export default function Footer(){
                         <h2>Help</h2>
                         <br/>
                         <ul>
-                                {help.map((item, index) => (
-                                    <li key={index} className="underline my-1 font-semibold">{item}</li>
-                                ))}
+                            {help.map((item, index) => (
+                                <li key={index} className="underline my-1 font-semibold">{item}</li>
+                            ))}
                         </ul>
                     </div>
+                    <div>
+                    <img src="../../assets/Theqa_logo_SVG.svg" alt="" />
+
+                    <p>Lets Stay Connected</p>
+                    </div>
                 </div>
-                <div></div><br/>
-                <div></div>
+                <div>
+                   
+                </div>
             </div>
         </div>
     );
