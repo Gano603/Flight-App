@@ -10,7 +10,7 @@ export default function NavBar() {
 
   return (
     <>
-      <div className="w-screen grid grid-cols-3 place-items-center m-0">
+      <div className="w-screen grid grid-cols-3 place-items-center m-0 bg-transparent absolute font-bold">
         <div className="m-0">
                 <img className = "w-32" src="../../public/assets/qatarairwayslogo.png" alt="" />
         </div>
@@ -26,9 +26,9 @@ export default function NavBar() {
           <Link key="" to = "/help" className="text-white text-sm ">Help</Link>
           <img src="../../public/assets/search.png" alt="" className="w-11"/>
         </div>
-        <div className="text-white grid grid-cols-2 lg:place-items-center sm:justify-content-right">
+        <div className="text-white grid grid-cols-2 lg:place-items-center">
           <img src="../../public/assets/user_icon.png" className="w-11 m-0"alt="" />
-          <h3><Link>Login</Link> | <Link>Sign Up</Link></h3>
+          <h3 className=""><Link>Login</Link> | <Link>Sign Up</Link></h3>
         </div>
         </div>
       </div>

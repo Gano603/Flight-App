@@ -27,7 +27,7 @@ const Home = () => {
   return (
     <>
       <div className="bg-mainImage1 bg-cover w-full md:h-[27rem]">
-        <div className="relative md:top-10 md:w-[24rem] left-[6rem] md:h-[24rem] text-white">
+        <div className="relative md:top-28 md:w-[24rem] left-[12rem] md:h-[24rem] text-white">
           <h1 className='md:text-4xl font-thin jotia' >Experience unrivalled Premium Travel</h1>
           <p className='md:text-md md:my-8'>World's Best Business Class</p>
           <button className='md:text-md font-bold md:rounded-3xl md:py-3 md:px-5 border-[1px] border-white'>Book Now</button>
