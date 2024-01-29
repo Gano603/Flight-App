@@ -10,7 +10,7 @@ export default function NavBar() {
 
   return (
     <>
-      <div className="w-screen grid grid-cols-3 place-items-center m-0 bg-transparent absolute font-bold">
+      <div className="w-full grid grid-cols-3 place-items-center m-0 bg-transparent absolute font-bold">
         <div className="m-0">
                 <img className = "w-32" src="../../public/assets/qatarairwayslogo.png" alt="" />
         </div>

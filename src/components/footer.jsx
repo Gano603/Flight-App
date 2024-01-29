@@ -6,7 +6,7 @@ export default function Footer(){
     const businessPartners = ["Affiliate Marketing", "E-Procurement" , "Trade Partners"];
     const help = ["Contact Us", "Travel Alerts"];
     return(
-        <div className="w-screen h-[36rem] bg-white grid place-items-center">
+        <div className="w-full h-[36rem] bg-white grid place-items-center">
             <div class="w-[72rem] h-[32rem]">
                 <div className="grid grid-cols-6 text-[#4a525d]">
                     <div className="h-[30rem]">
