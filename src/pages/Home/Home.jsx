@@ -43,10 +43,10 @@ const Home = () => {
           <div className='md:flex my-6 '>
             {cardData().map((card,index)=>(
               <div key={index} className='card bg-white md:w-[18rem] md:h-[20rem] mx-3 border-2 rounded-xl overflow-hidden'>
-                <img className='' src={card.imageUrl} alt={card.title}/>
-                <div className="mb-8">
-                  <p className='text-3xl font-thin'>{card.title}</p>
-                  <hr/>
+                <img className='object-cover h-[10rem] w-[100rem]' src={card.imageUrl} alt={card.title}/>
+                <div className="grid">
+                  <p className='text-3xl h-[7rem] font-thin'>{card.title}</p>
+                  <div className="w-100 h-[0.01rem] bg-black"></div>
                   <p className='font-semibold'>{card.content}</p>
                 </div>
               </div>
