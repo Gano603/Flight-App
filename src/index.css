@@ -8,7 +8,13 @@
   
 
 html{
-    background-color: black;
+    background-color: rgb(243, 241, 241);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none; /* WebKit browsers */
+    margin: 0; /* Removes the inner spin button in Safari */
 }
 .jotia{
     font-family: Jotia;
